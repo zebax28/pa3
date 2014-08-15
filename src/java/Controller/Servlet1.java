@@ -85,6 +85,7 @@ public class Servlet1 extends HttpServlet {
         } else {
 
             sesion.setAttribute("key", nombreform + " " + edad2);
+            sesion.setAttribute("key", nombreform + " " + edad2);
             response.sendRedirect("page2.jsp");
 
         }
